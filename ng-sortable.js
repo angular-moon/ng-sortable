@@ -24,7 +24,7 @@
 
 /*jshint indent: 2 */
 /*global angular: false */
-//@require ng-sortable.css
+
 (function () {
   'use strict';
   angular.module('ui.sortable', [])

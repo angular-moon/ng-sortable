@@ -4,11 +4,12 @@
     "name": "ng-sortable",
     "main": "ng-sortable.js",
     "dependencies": [
-        "angular"
+        "angular",
+        "css"
     ],
     "shim": {
         "ng-sortable.js": {
-            "deps": ["angular"],
+            "deps": ["angular", "css!ng-sortable.css"],
             "exports": "'ui.sortable'"
         }
     }
